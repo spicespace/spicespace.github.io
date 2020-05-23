@@ -1,0 +1,11 @@
+.title {
+  font-size: 50px;
+  padding: 0px 20px;
+  float: left;
+}
+
+li {
+  padding: 60px 40px;
+  float: left;
+  list-style: none;
+}
