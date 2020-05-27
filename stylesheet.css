@@ -1,11 +1,87 @@
-.title {
-  font-size: 50px;
-  padding: 0px 20px;
-  float: left;
+
+* {
+  box-sizing: border-box;
 }
 
 li {
-  padding: 60px 40px;
-  float: left;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+}
+
+header {
+  height: 100px;
+  background: rgba(0,0,51,0.9);
+  color: white;
+  position: fixed;
+    top: 0;
+  z-index: 10;
+}
+
+.header-title h1 {
+  float: left;
+  padding: 0px 60px;
+  font-size: 40px;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 40px;
+  padding: 21px 0;
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .header-list {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    float: right;
+    padding: 35px 50px 10px 0;
+  }
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  margin: 25px 55px 25px 55px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+  display: inline-block;
+}
+.google {
+  border-radius: 5px;
+  transition:background-color 0.5s;
+}
+
+.google:hover {
+  background-color: rgba(236,184,138,0.5);
+}
+
+.fa-google {
+  margin-right: 10px;
+}
+
+.main {
+  background-image: url(UNADJUSTEDNONRAW_thumb_2a6e.jpg);
+  background-size: cover;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  height: 670px;
+}
+
+footer {
+  height: 200px;
+  background-color: rgba(134,135,96,0.7)
 }
